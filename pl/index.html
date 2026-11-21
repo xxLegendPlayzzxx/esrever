@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esrever · Powiedz coś, posłuchaj tego wspak, powtórz i usłysz swoją powtórkę od przodu.</title>
+<meta name="description" content="Powiedz coś, posłuchaj tego wspak, powtórz i usłysz swoją powtórkę od przodu.">
+<link rel="icon" href="../icon.png">
+<style>
+@font-face{font-family:Bricolage;font-weight:800;font-display:swap;src:url("../bricolage.ttf") format("truetype")}
+:root{--bg:#FFF6EC;--surface:#FFFFFF;--ink:#1E1A2E;--body:#4A4458;--muted:#857E91;--line:#EADCCB;--accent:#D63A2E}
+@media (prefers-color-scheme:dark){:root{--bg:#16131F;--surface:#221E2E;--ink:#FBF4EA;--body:#D6CFE0;--muted:#9C94AB;--line:#3A3449;--accent:#FF7468}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding-top:18px;padding-bottom:18px}
+.brand{display:flex;align-items:center;gap:10px;font:800 22px/1 Bricolage,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);text-decoration:none;margin-right:auto;letter-spacing:-.3px}
+.brand img{width:34px;height:34px;border-radius:8px}
+nav a{color:var(--body);text-decoration:none;font-size:15px;margin-left:18px}
+nav a[aria-current]{color:var(--ink);font-weight:600}
+main{padding:44px 0 56px}
+h1{font:800 40px/1.1 Bricolage,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);letter-spacing:-.8px;margin:0 0 14px}
+h2{font:600 19px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);margin:34px 0 6px}
+p{margin:0 0 14px}
+.lead{font-size:19px}
+.meta{color:var(--muted);font-size:15px}
+.button{display:inline-block;margin-top:10px;padding:13px 26px;border-radius:999px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:6px 22px;margin-top:26px}
+.card h2:first-child{margin-top:18px}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:22px 0 40px}
+footer .langs{margin:0 0 10px}
+footer .langs a{margin-right:14px;color:var(--muted);white-space:nowrap}
+footer .langs a[aria-current]{color:var(--ink);font-weight:600}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="../pl/"><img src="../icon.png" alt="">Esrever</a>
+<nav><a href="../pl/support/">Pomoc</a><a href="../pl/privacy/">Prywatność</a></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Dasz radę powiedzieć to wspak?</h1>
+<p class="lead">Esrever to gra w śpiewanie od tyłu na iPhone’a i iPada. Nagraj hasło, posłuchaj go wspak, powtórz ten odwrócony dźwięk, a potem usłysz swoją powtórkę puszczoną od przodu. Graj w pojedynkę, bez limitu prób i bez reklam, albo podawajcie sobie telefon w trybie imprezowym.</p>
+<p><a class="button" href="https://apps.apple.com/app/id6837282823">Pobierz aplikację</a></p>
+</div></main>
+<footer><div class="wrap">
+<p class="langs"><a href=".././" lang="en">English</a><a href="../de/" lang="de">Deutsch</a><a href="../es/" lang="es">Español</a><a href="../fr/" lang="fr">Français</a><a href="../it/" lang="it">Italiano</a><a href="../pl/" aria-current="true" lang="pl">Polski</a><a href="../pt/" lang="pt-BR">Português</a><a href="../tr/" lang="tr">Türkçe</a></p>
+<p>Ta strona nie używa plików cookie ani narzędzi analitycznych.</p>
+<p>© 2026 Dillon Pinto</p>
+</div></footer>
+</body>
+</html>
